@@ -1,0 +1,36 @@
+{
+  "name": "prisma-redis-middleware",
+  "description": "Example of using Prisma Redis Middleware for caching results of queries in Redis",
+  "engines": {
+    "node": "^20.0.0",
+    "npm": "^10.0.0"
+  },
+  "author": "A-J Roos <asjas@hey.com>",
+  "license": "Hippocratic-3.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "source": "./src/index.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "dev": "nodemon",
+    "clean": "rimraf dist && rimraf prisma/dev.db",
+    "start": "node dist/index.js",
+    "prisma:generate": "prisma db generate",
+    "prisma:migrate:dev": "prisma db migrate dev"
+  },
+  "dependencies": {
+    "ioredis": "5.3.2",
+    "pino": "8.16.2",
+    "@prisma/client": "^5.17.0",
+    "prisma-redis-middleware": "../"
+  },
+  "devDependencies": {
+    "@prisma/client": "5.6.0",
+    "@types/ioredis": "4.28.10",
+    "@types/node": "20.10.3",
+    "nodemon": "3.0.2",
+    "rimraf": "5.0.5",
+    "ts-node": "10.9.1",
+    "typescript": "5.3.2"
+  }
+}
