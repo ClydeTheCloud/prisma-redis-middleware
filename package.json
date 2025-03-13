@@ -1,13 +1,14 @@
 {
   "name": "prisma-redis-cache-middleware",
   "author": "clydethecloud",
-  "version": "4.8.0",
+  "version": "4.9.0",
   "description": "Prisma Middleware for caching results of queries in Redis",
   "license": "Hippocratic-3.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "source": "./src/index.ts",
   "module": "./dist/prisma-redis-middleware.esm.js",
+  "type": "module",
   "files": [
     "dist",
     "src"
