@@ -1,6 +1,6 @@
 {
-  "name": "prisma-redis-middleware",
-  "author": "A-J Roos <asjas@hey.com>",
+  "name": "prisma-redis-cache-middleware",
+  "author": "clydethecloud",
   "version": "4.8.0",
   "description": "Prisma Middleware for caching results of queries in Redis",
   "license": "Hippocratic-3.0",
