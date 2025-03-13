@@ -30,11 +30,11 @@
   },
   "dependencies": {
     "async-cache-dedupe": "^2.2.0",
-    "ioredis": "^5.4.1"
+    "ioredis": "5.3.2"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
-    "@prisma/client": "^5.17.0",
+    "@prisma/client": "^5.18.0",
     "@size-limit/preset-small-lib": "11.0.0",
     "@types/ioredis-mock": "8.2.5",
     "@types/node": "^22.1.0",
@@ -80,7 +80,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Asjas/prisma-redis-middleware.git"
+    "url": "git+https://github.com/ClydeTheCloud/prisma-redis-middleware.git"
   },
   "keywords": [
     "prisma",
@@ -91,7 +91,7 @@
     "caching"
   ],
   "bugs": {
-    "url": "https://github.com/Asjas/prisma-redis-middleware/issues"
+    "url": "https://github.com/ClydeTheCloud/prisma-redis-middleware/issues"
   },
-  "homepage": "https://github.com/Asjas/prisma-redis-middleware#readme"
+  "homepage": "https://github.com/ClydeTheCloud/prisma-redis-middleware#readme"
 }
